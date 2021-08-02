@@ -42,7 +42,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|July 30| Prompt / Wireframes / Priority Matrix / Timeframes | Incomplete
+|July 30| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
 |August 2| Project Approval / Core Application Structure (HTML, CSS, etc.) | Incomplete
 |August 3| Pseudocode / actual code | Incomplete
 |August 4| Initial Clickable Model  | Incomplete
@@ -51,7 +51,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Priority Matrix
 
-Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
+(Assests folder)
 
 ## Timeframes
 
@@ -61,9 +61,13 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| HTML | H | 3hrs| 3.5hrs | 3.5hrs |
+| CSS | H | 6hrs| 5hrs | 5hrs |
+| Working with API | H | 6hrs| 2.5hrs | 2.5hrs |
+| Javascript functions | H | 6hrs| 5hrs | 5hrs |
+| Dynamic programming | H | 6hrs| 5hrs | 5hrs |
+| Bug testing and quality assurance | H | 6hrs| 5hrs | 5hrs |
+| Total | H | 33hrs| 5hrs | 5hrs |
 
 ## Code Snippet
 
