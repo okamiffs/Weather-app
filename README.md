@@ -43,7 +43,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 |  Day | Deliverable | Status
 |---|---| ---|
 |July 30| Prompt / Wireframes / Priority Matrix / Timeframes | Complete
-|August 2| Project Approval / Core Application Structure (HTML, CSS, etc.) | Incomplete
+|August 2| Project Approval / Core Application Structure (HTML, CSS, etc.) reaching MVP | Complete
 |August 3| Pseudocode / actual code | Incomplete
 |August 4| Initial Clickable Model  | Incomplete
 |August 5| MVP | Incomplete
@@ -61,10 +61,10 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| HTML | H | 3hrs| 3.5hrs | 3.5hrs |
-| CSS | H | 6hrs| 5hrs | 5hrs |
-| Working with API | H | 6hrs| 2.5hrs | 2.5hrs |
-| Javascript functions | H | 6hrs| 5hrs | 5hrs |
+| HTML | H | 3hrs| 3.5hrs | 1hrs |
+| CSS | H | 6hrs| 5hrs | 1hrs |
+| Working with API | H | 6hrs| 2.5hrs | 6hrs |
+| Javascript functions | H | 6hrs| 5hrs | 6hrs |
 | Dynamic programming | H | 6hrs| 5hrs | 5hrs |
 | Bug testing and quality assurance | H | 6hrs| 5hrs | 5hrs |
 | Total | H | 33hrs| 5hrs | 5hrs |
@@ -81,3 +81,5 @@ function reverse(string) {
 
 ## Change Log
  Use this section to document what changes were made and the reasoning behind those changes.  
+
+ August 2nd: Created HTML, CSS, JS. Reached MVP.
