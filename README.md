@@ -7,26 +7,26 @@ Weather-app
 
 ## Project Description
 
-Upon entering your city within the search bar, return name, temperature, "feels like", weather (main and description),
+Weather-app allows you to search for weather based on location. You will have access to temperature, the “feels-like” data, a description of the weather forecast and more!
 
 ## API and Data Sample
-https://openweathermap.org/current#data
-(assets folder for screenshots.)
+[Weather API](https://openweathermap.org/current#data)
 
+![API data](https://raw.githubusercontent.com/okamiffs/Weather-app/main/Assets/Screenshot%202021-07-30%20at%203.48.47%20PM.png)
 
 ## Wireframes
-(In the assets)
+![Wireframe](https://raw.githubusercontent.com/okamiffs/Weather-app/main/Assets/a2e1a484-93fe-4708-94e8-a6b6e4cf5996.png)
 
 
 ### MVP/PostMVP
 
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
+The functionality will then be divided into two separate lists: MPV and PostMVP.  
 
 #### MVP 
 
-- return info when location searched
-- display info on site
-- flexbox & CSS styling (basic - intermediate)
+- Receive data from Weather API
+- Display contents of API call on screen
+- Responsive Design using flexbox
 
 #### PostMVP  
 
@@ -51,7 +51,7 @@ You are **responsible** for scheduling time with your squad to seek approval for
 
 ## Priority Matrix
 
-(Assests folder)
+![Priority Matrix](https://raw.githubusercontent.com/okamiffs/Weather-app/main/Assets/Screenshot%202021-08-01%20at%209.06.15%20PM.png)
 
 ## Timeframes
 
