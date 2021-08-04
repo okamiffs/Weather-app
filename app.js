@@ -1,11 +1,14 @@
 const button = document.querySelector("#search")
 const body = document.querySelector("#BodyBox")
-
+const iconBox = document.querySelector("#IconBox")
 
 const weatherRequest = async () => {
 
   while (body.lastChild) {
     body.removeChild(body.lastChild)
+  }
+  while (iconBox.lastChild) {
+    iconBox.removeChild(iconBox.lastChild)
   }
 
   try {
@@ -36,9 +39,9 @@ const weatherRequest = async () => {
     const weatherConditions = weatherResponce.data.weather
     weatherConditions.forEach(index => {
       
-      // const icon = document.createElement("img")
-      // icon.src = index.icon
-      // body.append(icon)
+      const icon = document.createElement("img")
+      icon.src = `http://openweathermap.org/img/wn/${index.icon}@2x.png`
+      iconBox.append(icon)
 
       const weatherForecast = document.createElement("h2")
       weatherForecast.innerText = `Weather: ${index.main}`
