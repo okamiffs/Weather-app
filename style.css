@@ -15,7 +15,7 @@
   flex-direction: column;
   /* background-color: rgba(0, 0, 0, 0.1); */
   height: 400px;
-  width: 50%;
+  width: 85%;
   align-items: center;
   margin: 0px auto;
   font-size: 13px;
@@ -35,5 +35,16 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url("https://www.shell.com/energy-and-innovation/the-energy-future/scenarios/shell-scenario-sky/_jcr_content/pagePromo/image.img.960.jpeg/1548184031017/clear-blue-sky.jpeg");
+  height: 100vh;
+  margin: 0;
+}
+html, body {
+  margin: 0;
+  padding: 0;
+}
 
+@media only screen and (max-width: 400px) {
+  *{
+    font-size: 10px;
+  }
 }

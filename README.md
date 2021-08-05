@@ -10,7 +10,7 @@ Weather-app
 Weather-app allows you to search for weather based on location. You will have access to temperature, the “feels-like” data, a description of the weather forecast and more!
 
 ## API and Data Sample
-[Weather API](https://openweathermap.org/current#data)
+![Weather API](https://openweathermap.org/current#data)
 
 ![API data](https://raw.githubusercontent.com/okamiffs/Weather-app/main/Assets/Screenshot%202021-07-30%20at%203.48.47%20PM.png)
 
@@ -61,25 +61,35 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| HTML | H | 3hrs| 3.5hrs | 1hrs |
-| CSS | H | 6hrs| 5hrs | 1hrs |
-| Working with API | H | 6hrs| 2.5hrs | 6hrs |
-| Javascript functions | H | 6hrs| 5hrs | 6hrs |
-| Dynamic programming | H | 6hrs| 5hrs | 5hrs |
-| Bug testing and quality assurance | H | 6hrs| 5hrs | 5hrs |
-| Total | H | 33hrs| 5hrs | 5hrs |
+| HTML | H | 3hrs| 1hrs | 1hrs |
+| CSS | H | 6hrs| 6hrs | 6hrs |
+| Working with API | H | 6hrs| 2.5hrs | 2.5hrs |
+| Javascript functions | H | 6hrs| 4hrs | 4hrs |
+| Dynamic programming | H | 6hrs| 2hrs | 2hrs |
+| Bug testing and quality assurance | H | 6hrs| 2hrs | 2hrs |
+| Total | H | 33hrs| 17.5hrs | 17.5hrs |
 
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
 ```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
+} catch (error) {
+    console.log(error)
+
+    const noSearch = document.createElement("h1")
+    noSearch.innerText = "Not a viable search"
+    body.append(noSearch)
+  }
 ```
 
 ## Change Log
  Use this section to document what changes were made and the reasoning behind those changes.  
 
  August 2nd: Created HTML, CSS, JS. Reached MVP.
+
+ August 3rd: Adjustments to backgrounds and adjusted JS and CSS elements.
+
+ August 4th: Some minor adjustents all around, displaying icons.
+
+ August 5th: Completed project.
