@@ -1,11 +1,13 @@
 
 # Project Overview
 
-[Minimalist-Weather-app](https://okamiffs.github.io/Weather-app/)
+
 
 ## Project Name
 
-Weather-app
+Minimalist Weather app
+
+[Weather-app](https://okamiffs.github.io/Weather-app/)
 
 ## Project Description
 
