@@ -4,6 +4,7 @@ const body = document.querySelector("#BodyBox")
 const iconBox = document.querySelector("#IconBox")
 const inputField = document.querySelector("#input")
 
+//async arrow function 
 const weatherRequest = async () => {
 
   // While loops to clear page on search.
