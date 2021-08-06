@@ -1,3 +1,4 @@
+// Variable list that selects HTML elements
 const button = document.querySelector("#search")
 const body = document.querySelector("#BodyBox")
 const iconBox = document.querySelector("#IconBox")
@@ -5,6 +6,7 @@ const inputField = document.querySelector("#input")
 
 const weatherRequest = async () => {
 
+  // While loops to clear page on search.
   while (body.lastChild) {
     body.removeChild(body.lastChild)
   }
@@ -12,6 +14,7 @@ const weatherRequest = async () => {
     iconBox.removeChild(iconBox.lastChild)
   }
 
+  // try catch that logs results and stores it into a variable
   try {
     let city = inputField.value
     const weatherResponce = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=1e7daf730878bdb0f31169272347b4f7`)
@@ -20,6 +23,7 @@ const weatherRequest = async () => {
     console.log(weatherData)
 
 
+    // Dynamic programming/ appending to the DOM
     const name = document.createElement('h1')
     name.innerText = `Name: ${weatherData.name}`
     body.append(name)
@@ -36,6 +40,7 @@ const weatherRequest = async () => {
     tempMaxMin.innerText = `Highest: ${weatherData.main.temp_max}F Lowest: ${weatherData.main.temp_min}F`
     body.append(tempMaxMin)
 
+    // For each loop to iterate through an array and store called values to a variable and append them to DOM
     const weatherConditions = weatherResponce.data.weather
     weatherConditions.forEach(index => {
       
@@ -51,6 +56,7 @@ const weatherRequest = async () => {
       weatherDescr.innerText = `Described as: ${index.description}`
       body.append(weatherDescr)
 
+      // if else statements for if weather = x change background image to image that suits corresponding weather data
       if (index.main === "Clouds") {
         document.body.style.backgroundImage = "url(https://cdn.pixabay.com/photo/2020/08/24/20/14/clouds-5514993_1280.jpg)"
       } else if (index.main === "Clear") {
@@ -66,12 +72,12 @@ const weatherRequest = async () => {
   
       
    
-
+    //catch, also catching search errors.
   } catch (error) {
     const noSearch = document.createElement("h1")
     noSearch.innerText = "Not a viable search"
     body.append(noSearch)
   }
 }
-
+// event listener, on button click call the function above.
 button.addEventListener("click", weatherRequest)
