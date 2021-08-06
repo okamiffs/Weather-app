@@ -14,7 +14,7 @@ const weatherRequest = async () => {
 
   try {
     let city = inputField.value
-    const weatherResponce = await axios.get(`http://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=1e7daf730878bdb0f31169272347b4f7`)
+    const weatherResponce = await axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=imperial&appid=1e7daf730878bdb0f31169272347b4f7`)
     inputField.value = ""
     const weatherData = weatherResponce.data
     console.log(weatherData)
@@ -40,7 +40,7 @@ const weatherRequest = async () => {
     weatherConditions.forEach(index => {
       
       const icon = document.createElement("img")
-      icon.src = `http://openweathermap.org/img/wn/${index.icon}@2x.png`
+      icon.src = `https://openweathermap.org/img/wn/${index.icon}@2x.png`
       iconBox.append(icon)
 
       const weatherForecast = document.createElement("h2")

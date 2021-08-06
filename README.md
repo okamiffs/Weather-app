@@ -93,3 +93,5 @@ Use this section to include a brief code snippet of functionality that you are p
  August 4th: Some minor adjustents all around, displaying icons.
 
  August 5th: Completed project.
+
+ August 6th: Final debugging and cleaning.
