@@ -68,8 +68,6 @@ const weatherRequest = async () => {
    
 
   } catch (error) {
-    console.log(error)
-
     const noSearch = document.createElement("h1")
     noSearch.innerText = "Not a viable search"
     body.append(noSearch)
